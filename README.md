@@ -1,12 +1,17 @@
-# TerminoUI
-A very simple but cool looking and customizable text UI for your console tools.
+# Termino
+
+A very simple but cool looking, customizable and interactive text UI for your console tools.
+
+## Installation
+
+```dotnet add package Termino```
 
 ## Interface interaction
 
 You only need **3** keys to interact with it: **Up**, **Down**, **Enter**.
 Use the **Up** and **Down** arrow keys to navigate through options, then press **Enter** to select an option.
 
-### Customization
+## Customization
 
 If you are not satisfied with the default theme you can tweak it's options using the ```Termino.Models.Themes.TerminoTheme``` class.
 
@@ -19,8 +24,6 @@ Some of the customization options are:
 - Loop navigation between options
 
 ## Code Examples
-
-## TerminoUI
 
 ### Print a menu and return the selected option
 ```c#
@@ -77,10 +80,16 @@ switch (actionAnswer)
 }
 ```
 
-## TerminoUI.Logging
 
+# TerminoUI.Logging
 
-### Setup and use Termino.Logging
+- Integrates Termino with with `Microsoft.Extensions.Logging`.
+- Supports structured logging.
+
+## Installation
+```dotnet add package Termino.Logging```
+
+### Setting up Termino and Termino.Logging in apps that use Host builder
 ```c#
 
 var builder = Host.CreateApplicationBuilder(args);
@@ -114,4 +123,16 @@ switch (actionAnswer)
         // TODO: Execute action 2
         break;
 }
+
+// Get from DI an ILogger<T> in your services (e.g. via dependency injection)
+private readonly ILogger<MyService> _logger;
+
+public MyService(ILogger<MyService> logger)
+{
+    _logger = logger;
+}
+
+// Log messages in TerminoUI
+_logger.LogInformation("Hello {@name}.", name);
+
 ```
