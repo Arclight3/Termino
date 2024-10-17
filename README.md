@@ -6,8 +6,8 @@
     - [Print and interact with a menu](#print-and-interact-with-a-menu)
     - [Change default theme options](#change-default-theme-options)
 - - [Termino.Logging](#terminologging)
-  - [Installation](#installation-2)
-  - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-termino.logging-in-apps-that-use-host-builder)
+  - [Installation](#installation-1)
+  - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-terminologging-in-apps-that-use-host-builder)
   
 # Termino
 
