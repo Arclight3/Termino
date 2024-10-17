@@ -5,8 +5,8 @@
   - [Code Examples](#code-examples)
     - [Print and interact with a menu](#print-and-interact-with-a-menu)
     - [Change default theme options](#change-default-theme-options)
-- - [Termino.Logging](#termino-logging)
-  - [Installation](#termino-logging-installation)
+- - [Termino.Logging](#terminologging)
+  - [Installation](#terminologging-installation)
   - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-termino.logging-in-apps-that-use-host-builder)
   
 # Termino
