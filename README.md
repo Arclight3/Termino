@@ -4,7 +4,6 @@
   - [Customization](#customization)
   - [Code Examples](#code-examples)
     - [Print and interact with a menu](#print-and-interact-with-a-menu)
-    - [Change default theme options](#print-a-menu-and-return-the-selected-option)
     - [Change default theme options](#change-default-theme-options)
 - - [Termino.Logging](#termino.logging)
   - [Installation](#installation)
