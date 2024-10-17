@@ -1,3 +1,4 @@
+# Contents
 - [Termino](#termino)
   - [Installation](#installation)
   - [Interface interaction](#interface-interaction)
