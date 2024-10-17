@@ -6,7 +6,7 @@
     - [Print and interact with a menu](#print-and-interact-with-a-menu)
     - [Change default theme options](#change-default-theme-options)
 - - [Termino.Logging](#termino.logging)
-  - [Installation](#installation)
+  - [Installation](#termino.logging-installation)
   - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-termino.logging-in-apps-that-use-host-builder)
   
 # Termino
@@ -92,12 +92,12 @@ switch (actionAnswer)
 ```
 
 
-# TerminoUI.Logging
+# Termino.Logging
 
 - Integrates Termino with with `Microsoft.Extensions.Logging`.
 - Supports structured logging.
 
-## Installation
+## Termino.Logging Installation
 ```dotnet add package Termino.Logging```
 
 ### Setup and use Termino and Termino.Logging in apps that use Host builder
