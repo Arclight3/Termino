@@ -9,7 +9,7 @@
 - - [Termino.Logging](#terminologging)
   - [Installation](#installation-1)
   - [Code Examples](#code-examples-1)
-  - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-terminologging-in-apps-that-use-host-builder)
+    - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-terminologging-in-apps-that-use-host-builder)
   
 # Termino
 
