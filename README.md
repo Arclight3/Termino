@@ -1,3 +1,15 @@
+- [Termino](#termino)
+  - [Installation](#installation)
+  - [Interface interaction](#interface-interaction)
+  - [Customization](#customization)
+  - [Code Examples](#code-examples)
+    - [Print and interact with a menu](#print-and-interact-with-a-menu)
+    - [Change default theme options](#print-a-menu-and-return-the-selected-option)
+    - [Change default theme options](#change-default-theme-options
+- - [Termino.Logging](#termino.logging)
+  - [Installation](#installation)
+  - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-termino.logging-in-apps-that-use-host-builder)
+  
 # Termino
 
 A very simple but cool looking, customizable and interactive text UI for your console tools.
@@ -25,7 +37,7 @@ Some of the customization options are:
 
 ## Code Examples
 
-### Print a menu and return the selected option
+### Print and interact with a menu
 ```c#
 
 // Create an instance of TerminoUI
@@ -89,7 +101,7 @@ switch (actionAnswer)
 ## Installation
 ```dotnet add package Termino.Logging```
 
-### Setting up Termino and Termino.Logging in apps that use Host builder
+### Setup and use Termino and Termino.Logging in apps that use Host builder
 ```c#
 
 var builder = Host.CreateApplicationBuilder(args);
