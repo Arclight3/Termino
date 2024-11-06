@@ -6,10 +6,11 @@
   - [Code Examples](#code-examples)
     - [Print and interact with a menu](#print-and-interact-with-a-menu)
     - [Change default theme options](#change-default-theme-options)
-- - [Termino.Logging](#terminologging)
+- [Termino.Logging](#terminologging)
   - [Installation](#installation-1)
   - [Code Examples](#code-examples-1)
     - [Setup and use Termino and Termino.Logging in apps that use Host builder](#setup-and-use-termino-and-terminologging-in-apps-that-use-host-builder)
+- [Donations](#donations)
   
 # Termino
 
@@ -151,3 +152,10 @@ public MyService(ILogger<MyService> logger)
 _logger.LogInformation("Hello {@name}.", name);
 
 ```
+
+# Donations
+
+## Be careful and donate only if it is within your possibilities, because there is no refund system! Remember that you don't need to donate! You can use however you want this product totally for free. Thank you!
+
+<a href="https://buymeacoffee.com/arclight" target="_blank"><img src="https://buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
